@@ -5,3 +5,58 @@
     padding: 0;
     font-family: 'Work Sans', sans-serif;
 }
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.name {
+    text-align: center;
+    font-size: 2.8125rem;
+    font-weight: 700;
+}
+
+.name span {
+    color: #ff42a5;
+}
+
+.icon {
+    height: 1.5rem;
+}
+
+/* This is Header Section  */
+
+.header {
+    padding: 37px 240px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-container {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+}
+
+.nav-container li {
+    color: #3C354F;
+    text-align: center;
+    font-size: 1.125rem;
+    font-weight: 500;
+}
+
+.nav-item-3 {
+    padding: 17px 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+}
