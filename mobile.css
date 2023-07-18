@@ -11,3 +11,24 @@
     padding-top: 60px;
 }
 
+.banner-container {
+    padding: 0;
+    flex-direction: column-reverse;
+}
+
+.banner-content {
+    width: 100%;
+    text-align: center;
+}
+
+.banner-content ul {
+    padding: 25px 10px 40px 10px;
+}
+
+.banner-img {
+    width: 100%;
+}
+
+.banner-btn {
+    justify-content: center;
+}
