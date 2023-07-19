@@ -38,6 +38,13 @@
     text-transform: uppercase;
 }
 
+.linear-gradient {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 /* This is Header Section  */
 
 .header {
@@ -97,10 +104,6 @@
     font-size: 5.9375rem;
     font-weight: 800;
     text-transform: uppercase;
-    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
 }
 
 .banner-content ul {
@@ -134,5 +137,87 @@
 }
 
 .banner-img img {
+    width: 100%;
+}
+
+/* This is We R Gamer Section  */
+
+.we-r-gamer {
+    padding: 55px 240px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.we-r-gamer-img {
+    width: 60%;
+}
+
+.we-r-gamer-img img {
+    width: 100%;
+}
+
+.we-r-gamer-content {
+    width: 40%;
+    text-align: right;
+}
+
+.we-r-gamer-content h3 {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.we-r-gamer-content p {
+    margin: 32px 0;
+    color: #534C64;
+    font-size: 1.125rem;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.we-r-gamer-content .description {
+    margin-top: 24px;
+    color: #534C64;
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 45px;
+}
+
+.description span {
+    color: #534C64;
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 45px;
+}
+
+/* This is Funny Videos Section  */
+
+.funny-video-container {
+    padding: 120px 240px;
+    text-align: center;
+}
+
+.funny-video-container h3 {
+    color: #0B0223;
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.funny-video-container>p {
+    margin: 5px 0 48px 0;
+    color: #534C64;
+    font-size: 1.125rem;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+.card-img {
     width: 100%;
 }
