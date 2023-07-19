@@ -40,7 +40,7 @@
 /* This is We R Gamer Section  */
 
 .we-r-gamer {
-    padding: 30px 0;
+    padding: 30px 0 0 0;
     flex-direction: column;
 }
 
@@ -58,7 +58,7 @@
 
 .funny-video-container {
     margin: 0 auto;
-    padding: 120px 0;
+    padding: 60px 0;
     width: 90%;
     text-align: center;
 }
@@ -73,7 +73,7 @@
 .play-container {
     width: 100%;
     margin: 0 auto;
-    padding: 120px 0 0 0;
+    padding: 0;
     flex-direction: column;
 }
 
@@ -89,15 +89,15 @@
 .play-img .img-2 {
     width: 50%;
     position: relative;
-    top: -100px;
-    left: -60px;
+    top: -130px;
+    left: -30px;
 }
 
 /* This is Career Section  */
 
 
 .career-container {
-    padding: 0;
+    padding: 0 10px;
     margin: 0 auto;
 }
 

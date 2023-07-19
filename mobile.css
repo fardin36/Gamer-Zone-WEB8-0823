@@ -1,3 +1,9 @@
+/* This is common styles section  */
+
+.btn {
+    font-size: 1rem;
+}
+
 /* This is Header Section  */
 
 .header {
@@ -24,6 +30,12 @@
     text-align: center;
 }
 
+.banner-content h3 {
+    font-size: 4.9rem;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
 .banner-content ul {
     padding: 25px 0 40px 0;
 }
@@ -39,7 +51,7 @@
 /* This is We R Gamer Section  */
 
 .we-r-gamer {
-    padding: 55px 0;
+    padding: 55px 0 0 0;
     flex-direction: column;
 }
 
@@ -56,7 +68,7 @@
 
 .funny-video-container {
     margin: 0 auto;
-    padding: 120px 0;
+    padding: 60px 0 0 0;
     width: 90%;
     text-align: center;
 }
@@ -73,6 +85,7 @@
     margin: 0 auto;
     padding: 120px 0 0 0;
     flex-direction: column;
+    gap: 50px;
 }
 
 .play-content {
@@ -106,13 +119,13 @@
 }
 
 .career-img {
-    width: 100%;
+    width: 80%;
 }
 
 /* This is Category Section  */
 
 .category-container {
-    padding: 0 5%;
+    padding: 20px 5%;
     display: flex;
     flex-wrap: wrap;
     gap: 27px;
