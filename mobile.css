@@ -1,8 +1,9 @@
 /* This is Header Section  */
 
 .header {
-    display: block;
-    padding: 37px 0;
+    padding: 0;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .nav-container {
@@ -75,9 +76,35 @@
 }
 
 .play-content {
+    width: 100%;
     text-align: center;
 }
 
+.play-img {
+    width: 70%;
+}
+
+.play-img .img-2 {
+    width: 50%;
+    position: relative;
+    top: -100px;
+    left: -60px;
+}
+
+/* This is Career Section  */
 
 
+.career-container {
+    padding: 5%;
+    margin: 0 auto;
+    flex-direction: column;
+    gap: 120px;
+}
 
+.career-content {
+    width: 100%;
+}
+
+.career-img {
+    width: 100%;
+}
