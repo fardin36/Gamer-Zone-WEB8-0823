@@ -11,6 +11,7 @@
     justify-content: center;
     align-items: center;
     gap: 20px;
+    cursor: pointer;
 }
 
 .name {
@@ -25,6 +26,7 @@
 
 .icon {
     height: 1.5rem;
+    cursor: pointer;
 }
 
 .btn {
@@ -36,6 +38,11 @@
     font-size: 1.25rem;
     font-weight: 600;
     text-transform: uppercase;
+    cursor: pointer;
+}
+
+.btn:hover {
+    color: #0B0223;
 }
 
 .linear-gradient {
@@ -44,6 +51,7 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
 
 /* This is Header Section  */
 
@@ -67,6 +75,7 @@
     text-align: center;
     font-size: 1.125rem;
     font-weight: 500;
+    cursor: pointer;
 }
 
 .nav-item-3 {
@@ -78,6 +87,7 @@
     border-radius: 8px;
     background: rgba(11, 2, 35, 0.10);
 }
+
 
 /* This is Banner Section  */
 
@@ -220,7 +230,39 @@
 
 .card-img {
     width: 100%;
+    position: relative;
+    display: inline-block;
 }
+
+.play-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 70px;
+    height: 70px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+
+  .play-button::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-40%, -50%);
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 10px 0 10px 15px;
+    border-color: transparent transparent transparent white;
+  }
+
+  .card-img:hover .play-button {
+    opacity: 1;
+  }
 
 .card-description {
     color: #534C64;
@@ -415,4 +457,8 @@
     color: rgba(255, 255, 255, 0.60);
     font-size: 1rem;
     font-weight: 500;
+}
+
+.footer-container li:hover {
+    cursor: pointer;
 }
