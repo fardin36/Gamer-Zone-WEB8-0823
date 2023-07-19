@@ -108,3 +108,19 @@
 .career-img {
     width: 100%;
 }
+
+/* This is Category Section  */
+
+.category-container {
+    padding: 0 5%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 27px;
+}
+
+/* This is Footer Section  */
+
+.footer-container {
+    padding: 120px 5%;
+}
+

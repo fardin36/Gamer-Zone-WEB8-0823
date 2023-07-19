@@ -232,7 +232,7 @@
 /* This is Play Now section  */
 
 .play-container {
-    padding: 120px 240px;
+    padding: 120px 240px 0 240px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -339,4 +339,80 @@
 
 .career-img img {
     width: 100%;
+}
+
+/* This is Category Section  */
+
+.category-container {
+    padding: 120px 240px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 27px;
+}
+
+.btn-category {
+    padding: 10px;
+    color: #0B0223;
+    background: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+.btn-category:hover {
+    border: 2px solid #FF42A5;
+    color: #FF42A5;
+}
+
+/* This is Footer Section  */
+
+.footer-container {
+    padding: 120px 240px;
+    background: #0B0223;
+    text-align: center;
+    color: #FFF;
+}
+
+.social-links {
+    margin: 55px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 50px;
+    font-size: 1.125rem;
+    font-weight: 600;
+}
+
+.link-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.important-links {
+    margin: 65px 0 18px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    flex-wrap: wrap;
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.footer-container ul {
+    list-style: none;
+}
+
+.copyright {
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 1rem;
+    font-weight: 500;
 }
