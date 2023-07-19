@@ -64,3 +64,20 @@
     margin: 10px auto;
     display: block;
 }
+
+/* This is Play Now section  */
+
+.play-container {
+    width: 90%;
+    margin: 0 auto;
+    padding: 120px 0;
+    flex-direction: column;
+}
+
+.play-content {
+    text-align: center;
+}
+
+
+
+

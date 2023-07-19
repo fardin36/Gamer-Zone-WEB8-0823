@@ -193,7 +193,7 @@
 /* This is Funny Videos Section  */
 
 .funny-video-container {
-    padding: 120px 240px;
+    padding: 120px 240px 0 240px;
     text-align: center;
 }
 
@@ -220,4 +220,54 @@
 
 .card-img {
     width: 100%;
+}
+
+.card-description {
+    color: #534C64;
+    font-size: 1.25rem;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+/* This is Play Now section  */
+
+.play-container {
+    padding: 120px 240px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 120px;
+}
+
+.play-content {
+    width: 50%;
+    text-align: right;
+}
+
+.play-content h3 {
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 60px;
+}
+
+.play-content p {
+    color: #534C64;
+    font-size: 1.125rem;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.play-img {
+    width: 50%;
+}
+
+.play-img .img-1 {
+    width: 100%;
+}
+
+.play-img .img-2 {
+    width: 50%;
+    position: relative;
+    top: -150px;
+    left: -100px;
 }
