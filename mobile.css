@@ -1,7 +1,7 @@
 /* This is Header Section  */
 
 .header {
-    padding: 0;
+    padding: 30px 0 0 0;
     flex-direction: column;
     justify-content: center;
 }
@@ -71,7 +71,7 @@
 .play-container {
     width: 90%;
     margin: 0 auto;
-    padding: 120px 0;
+    padding: 120px 0 0 0;
     flex-direction: column;
 }
 
