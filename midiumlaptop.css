@@ -1,41 +1,29 @@
 /* This is Common Styles Section  */
 
-.logo-container {
-    gap: 15px;
-}
-
-.name {
-    font-size: 2.5125rem;
-}
-
-.btn {
-    padding: 16px 30.5px;
-    font-size: 1rem;
-}
 
 
 /* This is Header Section  */
 
 .header {
-    padding: 37px 100px;
+    padding: 37px 150px;
 }
 
 .nav-container {
-    gap: 16px;
+    gap: 22px;
 }
 
 /* This is Banner Section  */
 
 .banner-container {
-    padding: 0 100px;
+    padding: 0 150px;
 }
 
 .banner-content p {
-    font-size: 2.5rem;
+    font-size: 2.75rem;
 }
 
 .banner-content h3 {
-    font-size: 5rem;
+    font-size: 5.5rem;
 }
 
 .banner-content ul {
@@ -45,7 +33,7 @@
 /* This is We R Gamer Section  */
 
 .we-r-gamer {
-    padding: 55px 100px 0 100px;
+    padding: 55px 150px 0 150px;
 }
 
 .we-r-gamer-img {
@@ -57,7 +45,7 @@
 }
 
 .we-r-gamer-content h3 {
-    font-size: 2.5rem;
+    font-size: 2.75rem;
 }
 
 .we-r-gamer-content p {
@@ -79,22 +67,22 @@
 /* This is Funny Videos Section  */
 
 .funny-video-container {
-    padding: 120px 100px 0 100px;
+    padding: 120px 150px 0 150px;
 }
 
 .funny-video-container>p {
-    margin: 5px 0 40px 0;
+    margin: 5px 0 45px 0;
 }
 
 .card-description {
-    font-size: 0.75rem;
+    font-size: 1rem;
     line-height: 20px;
 }
 
 /* This is Play Now section  */
 
 .play-container {
-    padding: 0 100px;
+    padding: 0 150px;
     gap: 100px;
 }
 
@@ -105,45 +93,46 @@
 
 .play-img .img-1 {
     width: 80%;
-    top: 50px;
+    top: 60px;
+    right: -20%;
 }
 
 .play-img .img-2 {
     width: 40%;
-    top: -50px;
-    left: -70px;
+    top: -60px;
+    left: 10px;
 }
 
 /* This is Career Section  */
 
 .career-container {
-    padding: 0 0 0 100px;
+    padding: 0 0 0 150px;
 }
 
 .career-content h4 {
-    margin-bottom: 10px;
-    font-size: 2.5rem;
-    line-height: 30px;
+    margin-bottom: 20px;
+    font-size: 3rem;
+    line-height: 40px;
 }
 
 .career-content p {
-    font-size: 1rem;
-    line-height: 20px;
+    font-size: 1.125rem;
+    line-height: 25px;
 }
 
 .career-content div {
-    margin: 10px 0;
+    margin: 20px 0;
 }
 
 .career-content ul {
-    font-size: 1.1rem;
-    line-height: 20px;
+    font-size: 1.25rem;
+    line-height: 25px;
 }
 
 /* This is Category Section  */
 
 .category-container {
-    padding: 60px 100px;
+    padding: 80px 150px;
     gap: 20px;
 }
 
@@ -155,26 +144,21 @@
 /* This is Footer Section  */
 
 .footer-container {
-    padding: 120px 100px;
+    padding: 120px 150px;
 }
 
 .social-links {
-    margin: 45px 0;
-    gap: 30px;
-    font-size: 1rem;
-}
-
-.link-icons {
-    gap: 35px;
-    flex-wrap: wrap;
+    margin: 50px 0;
+    gap: 40px;
+    font-size: 1.125rem;
 }
 
 .important-links {
-    margin: 45px 0 10px 0;
-    gap: 35px;
-    font-size: 0.75rem;
+    margin: 55px 0 15px 0;
+    gap: 40px;
+    font-size: 1rem;
 }
 
 .copyright {
-    font-size: 0.75rem;
+    font-size: 1rem;
 }

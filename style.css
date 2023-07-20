@@ -245,9 +245,9 @@
     border-radius: 50%;
     opacity: 0;
     transition: opacity 0.3s ease;
-  }
+}
 
-  .play-button::after {
+.play-button::after {
     content: "";
     position: absolute;
     top: 50%;
@@ -258,11 +258,11 @@
     border-style: solid;
     border-width: 10px 0 10px 15px;
     border-color: transparent transparent transparent white;
-  }
+}
 
-  .card-img:hover .play-button {
+.card-img:hover .play-button {
     opacity: 1;
-  }
+}
 
 .card-description {
     color: #534C64;
@@ -274,7 +274,7 @@
 /* This is Play Now section  */
 
 .play-container {
-    padding: 120px 240px 0 240px;
+    padding: 0 240px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -304,16 +304,19 @@
 }
 
 .play-img .img-1 {
-    width: 100%;
+    width: 80%;
+    position: relative;
+    top: 85px;
+    right: -20%;
+
 }
 
 .play-img .img-2 {
-    width: 50%;
+    width: 40%;
     position: relative;
-    top: -150px;
-    left: -100px;
+    top: -85px;
+    left: 0px;
 }
-
 
 /* This is Career Section  */
 
