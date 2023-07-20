@@ -106,12 +106,12 @@
 .play-img .img-1 {
     width: 80%;
     top: 50px;
+    right: -20%;
 }
 
 .play-img .img-2 {
     width: 40%;
     top: -50px;
-    left: -70px;
 }
 
 /* This is Career Section  */
